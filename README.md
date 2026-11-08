@@ -89,11 +89,7 @@ leetcode-sql-50/
 ├── 05-advanced-select-and-joins/
 ├── 06-subqueries/
 ├── 07-advanced-string-functions-regex-clause/
-├── templates/
-│   └── solution-template.sql
-└── linkedin-posts/
-    ├── post-template.md
-    └── 01-select-topic-post.md
+└── templates/
 ```
 
 **Want to practice together?** Start with the [SELECT topic guide](./01-select/README.md), try its exercises, and share what you found tricky.
