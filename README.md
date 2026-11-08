@@ -1,66 +1,103 @@
-# SQL 50 | Learn SQL by Solving Problems
+# Back to SQL — Relearning in Public 🧠
 
-> **50 SQL problems. 7 topics. One learning journey.**
+**A SQL refresher, a problem-solving journal, and a free learning resource.**
 
-I'm working through the [LeetCode SQL 50 Study Plan](https://leetcode.com/studyplan/top-sql-50/) and documenting **not only my solutions, but how I think about each problem**.
+[![Study Plan](https://img.shields.io/badge/LeetCode-SQL%2050-orange)](https://leetcode.com/studyplan/top-sql-50/)
+![Dialect](https://img.shields.io/badge/SQL-MySQL-blue)
+![Progress](https://img.shields.io/badge/Solved-0%2F50-lightgrey)
 
-This repository is a public learning journal for other SQL learners, aspiring data analysts, and developers preparing for technical interviews.
+## Why this repository exists
+
+After graduating, I took a break from studying and problem-solving. When I came back, I realized that some concepts I had practiced before needed a refresh.
+
+Instead of revisiting my old SQL problems privately, I decided to **relearn in public**: review each topic, solve the problems again, explain my reasoning, and share useful takeaways with anyone learning SQL or preparing for interviews.
+
+This is **not a claim of expertise** and not just a collection of answers. It's a documented learning journey. I aim to make the explanations useful even if you're opening SQL for the first time.
+
+> **The goal:** understand the idea → attempt the problem → explain the approach → share what I learned.
 
 ## Progress
 
-**0 / 50 solved** · SQL dialect: **MySQL**
+**0 / 50 problems solved and documented**
 
-`░░░░░░░░░░░░░░░░░░░░` 0%
+`░░░░░░░░░░░░░░░░░░░░` **0%**
 
-> I update this tracker when I complete and verify a solution.
+*Progress is updated only after a solution has been tested and documented. Previous experience doesn't count toward this fresh run.*
 
 ## Learning roadmap
 
-| Topic | Folder |
-| --- | --- |
-| SELECT | [`01-select`](./01-select) |
-| Basic Joins | [`02-basic-joins`](./02-basic-joins) |
-| Basic Aggregate Functions | [`03-basic-aggregate-functions`](./03-basic-aggregate-functions) |
-| Sorting and Grouping | [`04-sorting-and-grouping`](./04-sorting-and-grouping) |
-| Advanced Select and Joins | [`05-advanced-select-and-joins`](./05-advanced-select-and-joins) |
-| Subqueries | [`06-subqueries`](./06-subqueries) |
-| Advanced String Functions / Regex / Clause | [`07-advanced-string-functions-regex-clause`](./07-advanced-string-functions-regex-clause) |
+| # | Topic | Study guide | Solutions |
+| --- | --- | --- | --- |
+| 01 | SELECT and filtering | [Start here](./01-select/README.md) | Coming soon |
+| 02 | Basic Joins | Coming soon | Coming soon |
+| 03 | Basic Aggregate Functions | Coming soon | Coming soon |
+| 04 | Sorting and Grouping | Coming soon | Coming soon |
+| 05 | Advanced Select and Joins | Coming soon | Coming soon |
+| 06 | Subqueries | Coming soon | Coming soon |
+| 07 | Advanced String Functions / Regex / Clause | Coming soon | Coming soon |
+
+The folder organization follows the topics in the [LeetCode SQL 50 study plan](https://leetcode.com/studyplan/top-sql-50/). Topics will be documented progressively rather than all at once.
+
+## How to study with this repository
+
+1. **Read the topic guide** for a quick conceptual refresh and hands-on examples.
+2. **Try the linked LeetCode problem on your own** before opening the solution.
+3. **Compare approaches**, not just final queries: which rows are kept, why each condition works, and what edge cases matter.
+4. **Review the takeaway** and revisit mistakes after a few days.
+5. **Practice variations** by changing conditions or test data.
+
+Every future solution will include the problem link, difficulty, concepts, the accepted MySQL query, a short approach explanation, and a takeaway. Solutions are added **only after they are tested**.
 
 ## Solved problems
 
-| # | Problem | Difficulty | Concepts | Solution & explanation |
-| --- | --- | --- | --- | --- |
-| — | *No solutions published yet* | — | — | — |
+| Problem | Topic | Difficulty | Explanation & SQL |
+| --- | --- | --- | --- |
+| *Solutions will appear here as I complete them* | — | — | — |
 
-## How I document each solution
+## What you'll find here
 
-Each solution lives in a `.sql` file with:
-1. A link to the original problem and its difficulty.
-2. The key SQL concepts used.
-3. My working, tested SQL query.
-4. A short explanation of **why the query works**.
-5. A learning takeaway, plus complexity or alternatives when useful.
+- **Topic guides:** approachable explanations and original examples.
+- **Problem solutions:** readable, tested SQL with reasoning.
+- **Learning notes:** mistakes, tricky cases, and practical mental models.
+- **LinkedIn series:** short posts with key insights and links back to the full guides.
 
-I write my own explanations, test queries on LeetCode, and update solutions when I discover a better approach.
+## Tech & conventions
 
-## Follow the learning series
+- **SQL dialect:** MySQL (the LeetCode problems will be solved in MySQL).
+- **Code style:** clear SQL keywords, meaningful formatting, and comments where useful.
+- **Language:** English for GitHub documentation; Egyptian Arabic + English technical terms for LinkedIn posts.
+- **Problem references:** links to original LeetCode questions; no copied problem statements or editorial solutions.
 
-I share selected lessons and common SQL mistakes on **LinkedIn**, linking back to the corresponding solution here.
+## Follow the journey
 
-**Series format:** Problem → My approach → SQL insight → Key takeaway.
+**Series:** *Back to SQL | Relearning in Public*
 
-🔗 **LinkedIn:** Add your profile link here.
+**LinkedIn:** _Add your profile URL here_
 
-## Repository guide
+I plan to share topic explainers, problem breakdowns, and quick SQL insights. The repository is the long-form reference; the posts are a friendly starting point for discussion.
 
-- [`templates/solution-template.sql`](./templates/solution-template.sql) — copy for each new solved problem.
-- [`linkedin-posts/post-template.md`](./linkedin-posts/post-template.md) — draft an educational post.
-- [`CONTRIBUTING.md`](./CONTRIBUTING.md) — naming and documentation conventions.
+## Repo structure
 
-## Disclaimer
+```text
+leetcode-sql-50/
+├── README.md
+├── 01-select/
+│   └── README.md            # First topic tutorial
+├── 02-basic-joins/
+├── 03-basic-aggregate-functions/
+├── 04-sorting-and-grouping/
+├── 05-advanced-select-and-joins/
+├── 06-subqueries/
+├── 07-advanced-string-functions-regex-clause/
+├── templates/
+│   └── solution-template.sql
+└── linkedin-posts/
+    ├── post-template.md
+    └── 01-select-topic-post.md
+```
 
-This is an independent educational project and is not affiliated with LeetCode. Problem names and links are used for reference; problem statements are not reproduced.
+**Want to practice together?** Start with the [SELECT topic guide](./01-select/README.md), try its exercises, and share what you found tricky.
 
 ---
 
-*Learning in public, one query at a time.*
+*Independent educational project; not affiliated with LeetCode. Problem titles and URLs are used for identification only.*
