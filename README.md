@@ -4,7 +4,7 @@
 
 [![Study Plan](https://img.shields.io/badge/LeetCode-SQL%2050-orange)](https://leetcode.com/studyplan/top-sql-50/)
 ![Dialect](https://img.shields.io/badge/SQL-MySQL-blue)
-![Progress](https://img.shields.io/badge/Solved-0%2F50-lightgrey)
+![Documented](https://img.shields.io/badge/Documented-5%2F50-teal)
 
 ## Why this repository exists
 
@@ -18,17 +18,18 @@ This is **not a claim of expertise** and not just a collection of answers. It's 
 
 ## Progress
 
-**0 / 50 problems solved and documented**
+**5 / 50 solutions documented** (10%)  
+**1 / 50 confirmed Accepted** (other submissions still to be verified)
 
-`░░░░░░░░░░░░░░░░░░░░` **0%**
+`██░░░░░░░░░░░░░░░░░░` **10% documented**
 
-*Progress is updated only after a solution has been tested and documented. Previous experience doesn't count toward this fresh run.*
+*Documented means the query and its reasoning have been reviewed here; Accepted is marked only after LeetCode submission is confirmed.*
 
 ## Learning roadmap
 
 | # | Topic | Study guide | Solutions |
 | --- | --- | --- | --- |
-| 01 | SELECT and filtering | [Start here](./01-select/README.md) | Coming soon |
+| 01 | SELECT and filtering | [Start here](./01-select/README.md) | [5 solutions](./01-select/) |
 | 02 | Basic Joins | Coming soon | Coming soon |
 | 03 | Basic Aggregate Functions | Coming soon | Coming soon |
 | 04 | Sorting and Grouping | Coming soon | Coming soon |
@@ -46,13 +47,17 @@ The folder organization follows the topics in the [LeetCode SQL 50 study plan](h
 4. **Review the takeaway** and revisit mistakes after a few days.
 5. **Practice variations** by changing conditions or test data.
 
-Every future solution will include the problem link, difficulty, concepts, the accepted MySQL query, a short approach explanation, and a takeaway. Solutions are added **only after they are tested**.
+Each solution includes the problem link, difficulty, concepts, the MySQL query, a short approach, and a takeaway. Solutions marked **Accepted** have confirmed LeetCode submission results.
 
 ## Solved problems
 
 | Problem | Topic | Difficulty | Explanation & SQL |
 | --- | --- | --- | --- |
-| *Solutions will appear here as I complete them* | — | — | — |
+| [1757 — Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | SELECT & Filtering | Easy | [SQL & explanation](./01-select/1757-recyclable-and-low-fat-products.sql) |
+| [584 — Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | SELECT & Filtering | Easy | [SQL & explanation](./01-select/584-find-customer-referee.sql) |
+| [595 — Big Countries](https://leetcode.com/problems/big-countries/) | SELECT & Filtering | Easy | [SQL & explanation](./01-select/595-big-countries.sql) |
+| [1148 — Article Views I](https://leetcode.com/problems/article-views-i/) | SELECT & Filtering | Easy | [SQL & explanation](./01-select/1148-article-views-i.sql) |
+| [1683 — Invalid Tweets](https://leetcode.com/problems/invalid-tweets/) | SELECT & Filtering | Easy | [SQL & explanation](./01-select/1683-invalid-tweets.sql) |
 
 ## What you'll find here
 
@@ -72,7 +77,7 @@ Every future solution will include the problem link, difficulty, concepts, the a
 
 **Series:** *Back to SQL | Relearning in Public*
 
-**LinkedIn:** _Add your profile URL here_
+**LinkedIn:** [Launch post](https://lnkd.in/p/deAkskp9)
 
 I plan to share topic explainers, problem breakdowns, and quick SQL insights. The repository is the long-form reference; the posts are a friendly starting point for discussion.
 
@@ -82,14 +87,18 @@ I plan to share topic explainers, problem breakdowns, and quick SQL insights. Th
 leetcode-sql-50/
 ├── README.md
 ├── 01-select/
-│   └── README.md            # First topic tutorial
+│   ├── README.md
+│   ├── 1757-recyclable-and-low-fat-products.sql
+│   ├── 584-find-customer-referee.sql
+│   ├── 595-big-countries.sql
+│   ├── 1148-article-views-i.sql
+│   └── 1683-invalid-tweets.sql
 ├── 02-basic-joins/
 ├── 03-basic-aggregate-functions/
 ├── 04-sorting-and-grouping/
 ├── 05-advanced-select-and-joins/
 ├── 06-subqueries/
-├── 07-advanced-string-functions-regex-clause/
-└── templates/
+└── 07-advanced-string-functions-regex-clause/
 ```
 
 **Want to practice together?** Start with the [SELECT topic guide](./01-select/README.md), try its exercises, and share what you found tricky.
