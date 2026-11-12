@@ -1,35 +1,19 @@
-
 /*
 Problem: 1757 - Recyclable and Low Fat Products
 Difficulty: Easy
-Topic: SELECT & Filtering
+Topic: 01 - SELECT & Filtering
+Dialect: MySQL
 Concepts: SELECT, WHERE, AND
-Database: MySQL
+Link: https://leetcode.com/problems/recyclable-and-low-fat-products/
 
-Problem Link:
-https://leetcode.com/problems/recyclable-and-low-fat-products/
-
---------------------------------------------------
 Approach:
---------------------------------------------------
-1. We need to return only the product_id column.
+We need product IDs for rows where both flags equal 'Y'.
+AND is required because satisfying only one flag is not enough.
 
-2. The data comes from the Products table.
+Key takeaway:
+A row passes WHERE only if both conditions evaluate to TRUE.
 
-3. We filter products using two conditions:
-   - low_fats = 'Y'
-   - recyclable = 'Y'
-
-4. We use AND because both conditions
-   must be satisfied.
-
---------------------------------------------------
-Key Takeaway:
---------------------------------------------------
-WHERE filters rows based on conditions.
-
-AND ensures that all specified conditions
-must be TRUE for a row to appear in the result.
+Learning note: Review the reasoning before reading the SQL solution.
 */
 
 SELECT product_id
