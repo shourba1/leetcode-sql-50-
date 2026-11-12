@@ -205,6 +205,6 @@ Before moving to joins, check whether you can explain:
 
 **Key takeaway:** most early SQL problems are about translating English conditions accurately. Pay special attention to missing values and the exact required output.
 
-**Next step:** solve [1757 — Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) yourself and document your tested solution using [`solution-template.sql`](../templates/solution-template.sql).
+**Next step:** Try solving [1757 — Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) on your own before checking the solution. Focus on understanding the logic, not just writing the correct query.
 
 [← Back to roadmap](../README.md)
